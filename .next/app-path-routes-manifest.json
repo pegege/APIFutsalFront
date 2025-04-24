@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/matches/page": "/matches",
+  "/matches/[id]/page": "/matches/[id]",
+  "/page": "/",
+  "/players/[id]/page": "/players/[id]",
+  "/players/page": "/players",
+  "/search/page": "/search",
+  "/teams/page": "/teams",
+  "/teams/[id]/page": "/teams/[id]"
+}
