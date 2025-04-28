@@ -4,7 +4,7 @@ interface Player {
   _id: string;
   name: string;
   nickname: string;
-  role?: string; // Posición opcional
+  role?: string; 
 }
 
 interface Team {
@@ -14,7 +14,6 @@ interface Team {
   players: Player[];
 }
 
-// ⚠️ Cambio clave: usar `any` en los props para evitar el fallo de tipo en Vercel
 export default async function TeamPage({ params }: any) {
   if (!params?.id) notFound();
 
