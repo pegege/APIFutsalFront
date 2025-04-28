@@ -10,7 +10,7 @@ export default function Home() {
       </p>
 
       <div className="flex flex-wrap gap-6 justify-center">
-        <Link href="/teams" className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+        <Link href="https://futsal-api-five.vercel.app/teams?page=1&season=2025" className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
           <h2 className="text-2xl font-semibold text-blue-600 mb-2">Equipos</h2>
           <p className="text-gray-500">Explora los equipos históricos de la LNFS</p>
         </Link>
