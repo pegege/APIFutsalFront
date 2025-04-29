@@ -13,6 +13,9 @@ export default function Navbar() {
 
         {/* Links de navegación */}
         <div className="flex space-x-6 text-gray-700 font-semibold">
+          <Link href="/documentation" className="hover:text-blue-600 transition">
+            Documentación
+          </Link>
           <Link href="/matches" className="hover:text-blue-600 transition">
             Partidos
           </Link>

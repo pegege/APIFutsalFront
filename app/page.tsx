@@ -29,6 +29,11 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-pink-600 mb-2">Buscador</h2>
           <p className="text-gray-500">Busca jugadores o equipos rápidamente</p>
         </Link>
+
+        <Link href="/documentation" className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+          <h2 className="text-2xl font-semibold text-pink-600 mb-2">Documentacion</h2>
+          <p className="text-gray-500">Documentación de la API</p>
+        </Link>
       </div>
 
       <p className="text-sm text-gray-400 mt-12">
